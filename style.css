@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.capa {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.botao-clicavel {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.galeria {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
